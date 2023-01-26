@@ -24,6 +24,11 @@ SNN was used to generate embeddings for speakers that enabled them to be identif
 
 *SNN_Embedding_Model.py* can be used to generate embedding for speakers.
 
+### Usage:     
+    - Train_CNN.py - this file allows you to start the CNN learning process after specifying the file paths in scripts from the Convolutional_Neural_Network directory in advance.     
+    - SNN_Model.py - this file allows you to start the SNN learning process after specifying the file paths in scripts from the Siamese_Neural_Network directory in advance.     
+    - SNN_Embedding_Model.py - this file allows you to generate embeddings based on (512x300x1 size) spectrograms after loading the model weights.
+
 ## Bibliography:
     [1]. Nagrani A., Chung J. S., Xie W., Zisserman A., VoxCeleb:Large-scale speaker verification in the wild,
         South Korea, Computer Speech & Language
