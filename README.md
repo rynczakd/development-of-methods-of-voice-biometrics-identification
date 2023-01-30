@@ -29,6 +29,13 @@ SNN was used to generate embeddings for speakers that enabled them to be identif
 2. SNN_Model.py - this file allows you to start the SNN learning process after specifying the file paths in scripts from the Siamese_Neural_Network directory in advance.     
 3. SNN_Embedding_Model.py - this file allows you to generate embeddings based on (512x300x1 size) spectrograms after loading the model weights.
 
+### Requirements:
+    - Numpy 1.19.5
+    - SciPy - Signal module 1.6.2
+    - Scikit-Learn 0.24.2
+    - TensorFlow 2.2.0
+    - Keras 2.4.3
+
 ## Bibliography:
     [1]. Nagrani A., Chung J. S., Xie W., Zisserman A., VoxCeleb:Large-scale speaker verification in the wild,
         South Korea, Computer Speech & Language
